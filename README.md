@@ -40,4 +40,6 @@
 * dataset: Vehicle_dataset_from_cardekho.csv
 * Dataset from india
 
+9. [cars_test](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
+* Images for the CNN that will classify the vehicles (maybe you should use the google api?)
 ---
