@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B307F4823E9B78800CD7F3B /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F4723E9B78800CD7F3B /* LogInView.swift */; };
+		7B307F4923E9B78800CD7F3B /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F4723E9B78800CD7F3B /* LogInView.swift */; };
+		7B307F4A23E9B78800CD7F3B /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B307F4723E9B78800CD7F3B /* LogInView.swift */; };
 		ED0F350923D8F8D5003997D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350823D8F8D5003997D0 /* AppDelegate.swift */; };
 		ED0F350B23D8F8D5003997D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */; };
 		ED0F350D23D8F8D5003997D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350C23D8F8D5003997D0 /* ContentView.swift */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B307F4723E9B78800CD7F3B /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		ED0F350523D8F8D5003997D0 /* CP_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CP_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0F350823D8F8D5003997D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				ED0F350C23D8F8D5003997D0 /* ContentView.swift */,
 				ED0F350E23D8F8D7003997D0 /* Assets.xcassets */,
 				ED0F351323D8F8D7003997D0 /* LaunchScreen.storyboard */,
+				7B307F4723E9B78800CD7F3B /* LogInView.swift */,
 				ED0F351623D8F8D7003997D0 /* Info.plist */,
 				ED0F351023D8F8D7003997D0 /* Preview Content */,
 			);
@@ -269,6 +274,7 @@
 			files = (
 				ED0F350923D8F8D5003997D0 /* AppDelegate.swift in Sources */,
 				ED0F350B23D8F8D5003997D0 /* SceneDelegate.swift in Sources */,
+				7B307F4823E9B78800CD7F3B /* LogInView.swift in Sources */,
 				ED0F350D23D8F8D5003997D0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B307F4923E9B78800CD7F3B /* LogInView.swift in Sources */,
 				ED0F352023D8F8D8003997D0 /* CP_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B307F4A23E9B78800CD7F3B /* LogInView.swift in Sources */,
 				ED0F352B23D8F8D8003997D0 /* CP_UIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
