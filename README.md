@@ -4,12 +4,15 @@
 ### This project takes features of a vehicle and tries to predict it's price.
 ---
 ## Data Sources and Information
+### Scrape anything you need from [here](https://www.auto-data.net/en/)
+### Getting MPG done in getting_mpg!
 ### [Find Datasets Here](https://datasetsearch.research.google.com/search?query=car%20price&docid=wpnnpshrzXjZhMcWAAAAAA%3D%3D)
 1. Automobile Dataset
 * Source: [UC Irvine respository](https://archive.ics.uci.edu/ml/datasets/automobile)
 * Partial info of data is on datasets/imports-85.txt
 * dataset: imports-85.csv
     * *Missing labels for columns!*
+* ?called cars_data.csv?
 2. Cars Dataset
 * Source: [Ramakrishnan Srinivasan *Automobile Dataset* on Kaggle ](https://www.kaggle.com/toramky/automobile-dataset)
 * dataset: Automobile_data.csv
