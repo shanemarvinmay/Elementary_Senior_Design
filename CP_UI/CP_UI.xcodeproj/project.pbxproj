@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F33BD4823EB6CFB005C18E7 /* signUpviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33BD4723EB6CFB005C18E7 /* signUpviewcontroller.swift */; };
+		3F79C7EB23EB4626007A4301 /* bk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F79C7EA23EB4626007A4301 /* bk.jpg */; };
 		ED0F350923D8F8D5003997D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350823D8F8D5003997D0 /* AppDelegate.swift */; };
 		ED0F350B23D8F8D5003997D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */; };
 		ED0F350D23D8F8D5003997D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350C23D8F8D5003997D0 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F33BD4723EB6CFB005C18E7 /* signUpviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpviewcontroller.swift; sourceTree = "<group>"; };
+		3F79C7EA23EB4626007A4301 /* bk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bk.jpg; sourceTree = "<group>"; };
 		ED0F350523D8F8D5003997D0 /* CP_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CP_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0F350823D8F8D5003997D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,9 +103,11 @@
 		ED0F350723D8F8D5003997D0 /* CP_UI */ = {
 			isa = PBXGroup;
 			children = (
+				3F79C7EA23EB4626007A4301 /* bk.jpg */,
 				ED0F350823D8F8D5003997D0 /* AppDelegate.swift */,
 				ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */,
 				ED0F350C23D8F8D5003997D0 /* ContentView.swift */,
+				3F33BD4723EB6CFB005C18E7 /* signUpviewcontroller.swift */,
 				ED0F350E23D8F8D7003997D0 /* Assets.xcassets */,
 				ED0F351323D8F8D7003997D0 /* LaunchScreen.storyboard */,
 				ED0F351623D8F8D7003997D0 /* Info.plist */,
@@ -242,6 +248,7 @@
 			files = (
 				ED0F351523D8F8D7003997D0 /* LaunchScreen.storyboard in Resources */,
 				ED0F351223D8F8D7003997D0 /* Preview Assets.xcassets in Resources */,
+				3F79C7EB23EB4626007A4301 /* bk.jpg in Resources */,
 				ED0F350F23D8F8D7003997D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				ED0F350923D8F8D5003997D0 /* AppDelegate.swift in Sources */,
 				ED0F350B23D8F8D5003997D0 /* SceneDelegate.swift in Sources */,
+				3F33BD4823EB6CFB005C18E7 /* signUpviewcontroller.swift in Sources */,
 				ED0F350D23D8F8D5003997D0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
