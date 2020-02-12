@@ -1,5 +1,5 @@
 //
-//  signUpviewcontroller.swift
+//  signUpViewController.swift
 //  CP_UI
 //
 //  Created by student on 2/5/20.
