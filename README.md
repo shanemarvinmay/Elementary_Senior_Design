@@ -3,7 +3,7 @@
 ## for Michael...
 [![Open in Colab](https://colab.research.google.com/github/shanemarvinmay/Senior_Design/master/main.ipynb)]
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shanemarvinmay/Senior_Design/shane]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shanemarvinmay/Senior_Design/blob/shane/df_0.ipynb]
 
 ## Abstract
 ### This project takes features of a vehicle and tries to predict it's price.
