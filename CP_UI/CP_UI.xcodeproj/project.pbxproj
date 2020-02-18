@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3FE32FDE23FAF1D500BD1A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE32FDD23FAF1D500BD1A7E /* Main.storyboard */; };
 		3FE32FE223FAF27F00BD1A7E /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE32FE123FAF27F00BD1A7E /* View.xib */; };
-		3FE32FE423FAF45900BD1A7E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE32FE323FAF45900BD1A7E /* background.png */; };
 		ED0F350923D8F8D5003997D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350823D8F8D5003997D0 /* AppDelegate.swift */; };
 		ED0F350B23D8F8D5003997D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */; };
 		ED0F350D23D8F8D5003997D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F350C23D8F8D5003997D0 /* ContentView.swift */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		3FE32FDD23FAF1D500BD1A7E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3FE32FE123FAF27F00BD1A7E /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		3FE32FE323FAF45900BD1A7E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Pictures/background.png; sourceTree = SOURCE_ROOT; };
 		ED0F350523D8F8D5003997D0 /* CP_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CP_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0F350823D8F8D5003997D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				ED0F350A23D8F8D5003997D0 /* SceneDelegate.swift */,
 				ED0F350C23D8F8D5003997D0 /* ContentView.swift */,
 				ED0F350E23D8F8D7003997D0 /* Assets.xcassets */,
-				3FE32FE323FAF45900BD1A7E /* background.png */,
 				ED0F351323D8F8D7003997D0 /* LaunchScreen.storyboard */,
 				3FE32FE123FAF27F00BD1A7E /* View.xib */,
 				3FE32FDD23FAF1D500BD1A7E /* Main.storyboard */,
@@ -250,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED0F351523D8F8D7003997D0 /* LaunchScreen.storyboard in Resources */,
-				3FE32FE423FAF45900BD1A7E /* background.png in Resources */,
 				ED0F351223D8F8D7003997D0 /* Preview Assets.xcassets in Resources */,
 				ED0F350F23D8F8D7003997D0 /* Assets.xcassets in Resources */,
 				3FE32FE223FAF27F00BD1A7E /* View.xib in Resources */,
