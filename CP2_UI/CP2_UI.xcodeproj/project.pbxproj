@@ -13,6 +13,7 @@
 		7B48D47F23FDA96C00BEEE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B48D47D23FDA96C00BEEE5E /* Main.storyboard */; };
 		7B48D48123FDA96C00BEEE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B48D48023FDA96C00BEEE5E /* Assets.xcassets */; };
 		7B48D48423FDA96C00BEEE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B48D48223FDA96C00BEEE5E /* LaunchScreen.storyboard */; };
+		7B48D48C23FDAAA300BEEE5E /* car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B48D48B23FDAAA300BEEE5E /* car1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7B48D48023FDA96C00BEEE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B48D48323FDA96C00BEEE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B48D48523FDA96C00BEEE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B48D48B23FDAAA300BEEE5E /* car1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		7B48D46B23FDA96C00BEEE5E = {
 			isa = PBXGroup;
 			children = (
+				7B48D48B23FDAAA300BEEE5E /* car1.jpg */,
 				7B48D47623FDA96C00BEEE5E /* CP2_UI */,
 				7B48D47523FDA96C00BEEE5E /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				7B48D48423FDA96C00BEEE5E /* LaunchScreen.storyboard in Resources */,
 				7B48D48123FDA96C00BEEE5E /* Assets.xcassets in Resources */,
+				7B48D48C23FDAAA300BEEE5E /* car1.jpg in Resources */,
 				7B48D47F23FDA96C00BEEE5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
