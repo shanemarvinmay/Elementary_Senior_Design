@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
+<<<<<<< HEAD
       location = "self:NEW_UI.xcodeproj">
+=======
+      location = "self:">
+>>>>>>> 2d5cc0f95ecaf66183628d1c484ee4cf47f3bcaf
    </FileRef>
 </Workspace>
