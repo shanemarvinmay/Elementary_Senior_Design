@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CP_UI
+//  CP2_UI
 //
-//  Created by Jazmine Spann
-//  Copyright © 2020 Kayla Butler. All rights reserved.
+//  Created by Jazmine N Spann on 2/19/20.
+//  Copyright © 2020 Jazmine N Spann. All rights reserved.
 //
 
 import UIKit
