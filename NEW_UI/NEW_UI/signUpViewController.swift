@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
-//  CP2_UI
+//  signUpViewController.swift
+//  NEW_UI
 //
-//  Created by Jazmine N Spann on 2/19/20.
+//  Created by Victoria Tre'Shawn Taylor on 2/19/20.
 //  Copyright © 2020 Jazmine N Spann. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class signUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,4 +17,3 @@ class ViewController: UIViewController {
 
 
 }
-

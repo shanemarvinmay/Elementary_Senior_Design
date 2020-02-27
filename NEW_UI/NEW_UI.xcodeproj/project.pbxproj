@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63D8EB7723FDB6EF00A60483 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D8EB7623FDB6EE00A60483 /* logo.png */; };
+		63D8EB7923FDC8E800A60483 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EB7823FDC8E800A60483 /* signUpViewController.swift */; };
 		7B48D49A23FDB2AA00BEEE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B48D49923FDB2AA00BEEE5E /* AppDelegate.swift */; };
 		7B48D49C23FDB2AA00BEEE5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B48D49B23FDB2AA00BEEE5E /* SceneDelegate.swift */; };
 		7B48D4A123FDB2AA00BEEE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B48D49F23FDB2AA00BEEE5E /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63D8EB7623FDB6EE00A60483 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		63D8EB7823FDC8E800A60483 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		7B48D49623FDB2AA00BEEE5E /* NEW_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEW_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B48D49923FDB2AA00BEEE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B48D49B23FDB2AA00BEEE5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +46,11 @@
 		7B48D48D23FDB2AA00BEEE5E = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				63D8EB7623FDB6EE00A60483 /* logo.png */,
+=======
 				7B48D4AD23FDB6B900BEEE5E /* car1.jpg */,
+>>>>>>> 44d86d80710a27f2a0390bda882fa4944bd0609f
 				7B48D49823FDB2AA00BEEE5E /* NEW_UI */,
 				7B48D49723FDB2AA00BEEE5E /* Products */,
 			);
@@ -63,6 +71,7 @@
 				7B48D49B23FDB2AA00BEEE5E /* SceneDelegate.swift */,
 				7B48D4B32405AB7900BEEE5E /* logInViewController.swift */,
 				7B48D49F23FDB2AA00BEEE5E /* Main.storyboard */,
+				63D8EB7823FDC8E800A60483 /* signUpViewController.swift */,
 				7B48D4A223FDB2AB00BEEE5E /* Assets.xcassets */,
 				7B48D4A423FDB2AB00BEEE5E /* LaunchScreen.storyboard */,
 				7B48D4A723FDB2AB00BEEE5E /* Info.plist */,
@@ -128,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D8EB7723FDB6EF00A60483 /* logo.png in Resources */,
 				7B48D4A623FDB2AB00BEEE5E /* LaunchScreen.storyboard in Resources */,
 				7B48D4A323FDB2AB00BEEE5E /* Assets.xcassets in Resources */,
 				7B48D4AE23FDB6BA00BEEE5E /* car1.jpg in Resources */,
@@ -143,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B48D49A23FDB2AA00BEEE5E /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				7B48D4B42405AB7900BEEE5E /* logInViewController.swift in Sources */,
+=======
+				63D8EB7923FDC8E800A60483 /* signUpViewController.swift in Sources */,
+>>>>>>> 6947200c410a98fd97407ab663359ee1159bf792
 				7B48D49C23FDB2AA00BEEE5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
