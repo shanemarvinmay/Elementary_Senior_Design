@@ -10,25 +10,23 @@
         <!--Log In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LogInViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="logInViewController" customModule="NEW_UI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car1.jpg" highlightedImage="car1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ruv-vz-Qll">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="415"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRQ-g9-MhP">
-                                <rect key="frame" x="163" y="629" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRQ-g9-MhP">
+                                <rect key="frame" x="170" y="630" width="74" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="continue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1XU-eu-mbp"/>
+                                </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HH2-cW-XHr">
-                                <rect key="frame" x="0.0" y="433" width="414" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HH2-cW-XHr">
+                                <rect key="frame" x="5" y="436" width="414" height="32"/>
                                 <color key="backgroundColor" red="0.4637305699" green="0.41759592909999999" blue="0.33911452660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <segments>
                                     <segment title="LOGIN"/>
@@ -37,21 +35,23 @@
                                 <color key="tintColor" red="0.96130555870000001" green="0.78643793770000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="selectedSegmentTintColor" red="0.2402774828328289" green="0.15972435956330572" blue="0.39088277284263961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K3a-Ed-9eJ">
-                                <rect key="frame" x="59" y="579" width="266" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K3a-Ed-9eJ">
+                                <rect key="frame" x="60" y="581" width="294" height="34"/>
                                 <color key="backgroundColor" red="0.4637305699" green="0.41759592909999999" blue="0.33911452660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.16361085810000001" green="0.0002754327263" blue="0.1412327287" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7J-Oj-1kj">
-                                <rect key="frame" x="148" y="803" width="232" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7J-Oj-1kj">
+                                <rect key="frame" x="150" y="805" width="229" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="FORGOT PASSWORD/USERNAME">
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.26082820600000001" green="0.0" blue="0.16903622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="forgotLogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYp-hB-lc8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkR-UH-NsI">
                                 <rect key="frame" x="230" y="50" width="174" height="46"/>
@@ -68,19 +68,46 @@
                                 <color key="highlightedColor" red="0.4637305699" green="0.41759592909999999" blue="0.33911452660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="shadowColor" red="0.4637305699" green="0.41759592909999999" blue="0.33911452660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="USERNAME" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RxE-iT-lKC">
-                                <rect key="frame" x="59" y="517" width="266" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="USERNAME" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RxE-iT-lKC">
+                                <rect key="frame" x="60" y="517" width="294" height="34"/>
                                 <color key="backgroundColor" red="0.4637305699" green="0.41759592909999999" blue="0.33911452660000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="textColor" red="0.16361085810000001" green="0.0002754327263" blue="0.1412327287" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car1.jpg" highlightedImage="car1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ruv-vz-Qll">
+                                <rect key="frame" x="0.0" y="-46" width="414" height="467"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.10841529074887218" blue="0.11957423615076146" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.0032589074250000002" green="0.1420139457" blue="0.1732108161" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ruv-vz-Qll" firstAttribute="centerX" secondItem="RxE-iT-lKC" secondAttribute="centerX" id="AdH-l7-iWd"/>
+                            <constraint firstItem="cRQ-g9-MhP" firstAttribute="top" secondItem="K3a-Ed-9eJ" secondAttribute="bottom" constant="15" id="Agx-8A-e9f"/>
+                            <constraint firstItem="W7J-Oj-1kj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="IEj-lb-ar6"/>
+                            <constraint firstItem="HH2-cW-XHr" firstAttribute="top" secondItem="ruv-vz-Qll" secondAttribute="bottom" constant="15" id="VcZ-Fa-BdS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K3a-Ed-9eJ" secondAttribute="trailing" constant="60" id="Ygw-m5-Jj5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W7J-Oj-1kj" secondAttribute="bottom" constant="29" id="f6O-8O-ImP"/>
+                            <constraint firstItem="W7J-Oj-1kj" firstAttribute="top" secondItem="cRQ-g9-MhP" secondAttribute="bottom" constant="146" id="iUy-Ot-eUQ"/>
+                            <constraint firstItem="RxE-iT-lKC" firstAttribute="top" secondItem="HH2-cW-XHr" secondAttribute="bottom" constant="50" id="iX1-WN-tD5"/>
+                            <constraint firstItem="ruv-vz-Qll" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ibG-sS-hqB"/>
+                            <constraint firstItem="HH2-cW-XHr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="5" id="iwa-5g-6hu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cRQ-g9-MhP" secondAttribute="trailing" constant="170" id="loZ-Ct-kVw"/>
+                            <constraint firstItem="K3a-Ed-9eJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="s9N-DX-Lxg"/>
+                            <constraint firstItem="RxE-iT-lKC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="vKY-qT-NDm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W7J-Oj-1kj" secondAttribute="trailing" constant="35" id="vKz-gO-dSY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RxE-iT-lKC" secondAttribute="trailing" constant="60" id="vof-dI-EQ8"/>
+                            <constraint firstItem="cRQ-g9-MhP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="z24-ID-SnC"/>
+                            <constraint firstItem="K3a-Ed-9eJ" firstAttribute="top" secondItem="RxE-iT-lKC" secondAttribute="bottom" constant="30" id="zOq-bV-I86"/>
+                            <constraint firstItem="HH2-cW-XHr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="zca-BO-Mgv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="logInPasswordField" destination="K3a-Ed-9eJ" id="B8J-iH-Bz6"/>
+                        <outlet property="logInUsernameField" destination="RxE-iT-lKC" id="9Sm-t4-jPx"/>
+                        <outlet property="segmentControls" destination="HH2-cW-XHr" id="daC-7B-jl7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
