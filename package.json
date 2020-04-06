@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/shanemarvinmay/Senior_Design/issues"
   },
-  "homepage": "https://github.com/shanemarvinmay/Senior_Design#readme"
+  "homepage": "https://github.com/shanemarvinmay/Senior_Design#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
