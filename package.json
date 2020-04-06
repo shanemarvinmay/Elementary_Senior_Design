@@ -1,0 +1,24 @@
+{
+  "name": "senior_design",
+  "version": "1.0.0",
+  "description": "shane's microservices",
+  "main": "shanes-microservices/index.js",
+  "scripts": {
+    "test": "console.log(\"test\");",
+    "start": " node shanes-microservices/index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanemarvinmay/Senior_Design.git"
+  },
+  "keywords": [
+    "shane's",
+    "microservices"
+  ],
+  "author": "shanemarvinmay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanemarvinmay/Senior_Design/issues"
+  },
+  "homepage": "https://github.com/shanemarvinmay/Senior_Design#readme"
+}
